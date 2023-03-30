@@ -1,0 +1,31 @@
+4. git init - иницијализирање гит во директориумот
+5.  $ git remote add origin https://github.com/Mastilo03/SI_2023_lab1_213174.git - поврзување на локален со оддалечен репозиториум
+6.  $ git commit -m "Initial commit" - правење commit со порака "Initial commit"
+7.  $ git commit -m "Add java class" - правење commit со порака "Add java class"
+8.  $ git push -u origin master - синхронизирање на сите гранки
+9.  $ git branch bug1 - креирање на гранка bug1
+    $ git branch bug2 - креирање на гранка bug2
+    $ git branch bug3 - креирање на гранка bug3
+10. $ git checkout bug1 - префрлање на гранка bug1
+11. $ git commit -m " Fix wrong loop for reading" - правење commit со порака " Fix wrong loop for reading"
+12. $ git checkout bug2 - префрлање на гранка bug2
+13. $ git commit -m "Fix wrong condition in filterOddNumbers" - правење commit со порака "Fix wrong condition in filterOddNumbers"
+14. $ git checkout bug3 - префрлање на гранка bug3
+15. $ git commit -m "Fix method sumEvenNumbers" - правење commit со порака "Fix method sumEvenNumbers"
+16. $ git push -u origin bug1 - синхронизирање на гранката bug1 со оддалечениот репозиториум
+    $ git push -u origin bug2 - синхронизирање на гранката bug2 со оддалечениот репозиториум
+    $ git push -u origin bug3 - синхронизирање на гранката bug3 со оддалечениот репозиториум
+17. $ git checkout master - префрлање на гранка master
+18. $ git merge bug1 - не се случија конфликти и се употреби Fast-Forward стратегијата.
+19. $ git push --all - синхронизирање на сите гранки
+20. $ git merge bug2 - не се случија конфликти и се употребува рекурзивна стратегија.   		
+21. $ git push --all - синхронизирање на сите гранки
+22. $ git checkout bug3 - префрлање на гранка bug3
+23. $ git rebase master - rebase на гранка bug3 спрема master
+24. $ git checkout master - префрлање на гранка master
+25. $ git merge bug3 - не се случија конфликти и се употреби Fast-Forward стратегијата.
+26. $ git push --all --force - синхронизирање на сите гранки
+27. $ git log - прикажување на сите логови
+    $ git add.
+28. $ git push --all - синхронизирање на сите гранки	
+ 
